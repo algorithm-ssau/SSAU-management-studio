@@ -1,4 +1,5 @@
 {
     "serverPort" : 5000,
-    "dbURL": "mongodb+srv://admin:admin@data-base.buo0lp3.mongodb.net/data-base?retryWrites=true&w=majority"
+    "dbURL": "mongodb+srv://admin:admin@data-base.buo0lp3.mongodb.net/data-base?retryWrites=true&w=majority",
+    "secretKey": "mern-secket-key"
 }
