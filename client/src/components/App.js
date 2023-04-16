@@ -1,13 +1,17 @@
 //import './App.css';
 import Navbar from './navbar/Navbar';
-import './app.css'
+import './app.less'
+import {BrowserRouter} from "react-router-dom"
 
 function App() {
   return (
+    <BrowserRouter>
     <div className='app'>
       <Navbar/>
       
     </div>
+    </BrowserRouter>
+    
   );
 }
 
