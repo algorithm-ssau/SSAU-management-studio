@@ -1,4 +1,4 @@
-@import "..//../utils/colors";
+@import "D:\Учеба\3 курс\6 семестр\IT-проекты\SSAU-management-studio\client\src\components\utils\colors.less";
 
 .navbar {
     display: flex;
@@ -7,17 +7,27 @@
     justify-content: center;
     background-color: @background_navbar-color;
     width: 100%;
+    position: absolute;
 
     &__header {
         margin-left: 10px;
         font-size: 22px;
         font-weight: 700;
+        font-family: Gropled;
+        color: @bluefont-color;
     }
 
     &__login {
         margin-left: auto;
-        margin-right: 20px;
-        
+        font-size: 22px;
+        margin-right: 10px;
+        font-family: Gropled;
+        color: @bluefont-color;
+    }
+    &__registration {
+        font-size: 22px;
+        font-family: Gropled;
+        color: @bluefont-color;
     }
 }
 
