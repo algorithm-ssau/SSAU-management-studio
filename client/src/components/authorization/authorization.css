@@ -1,4 +1,4 @@
-.registration {
+.authorization {
   display: flex;
   flex-direction: column;
   width: 455px;
@@ -9,21 +9,21 @@
   align-self: center;
   margin-top: 250px;
 }
-.registration__header {
+.authorization__header {
   font-size: 45px;
   font-weight: 700;
   font-family: Gropled;
   color: #0546F0;
   margin: 8px;
 }
-.registration input {
+.authorization input {
   margin: 8px 20px;
   color: #93A8DE;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
-.registration__btn {
+.authorization__btn {
   margin: 8px;
   border: none;
   background-color: #0546F0;
@@ -32,6 +32,5 @@
   color: #FAFAFAFA;
   font-weight: 700;
   font-size: 22px;
-  padding: 5px 120px;
-  align-top: flex;
+  padding: 5px 10px;
 }

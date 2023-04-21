@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from './navbar/Navbar';
 import './app.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Registration from './registration/Registration';
+import Registration from './authorization/Registration';
+import Login from './authorization/Login';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="wrap">
       <Routes>
         <Route path='/registration' element={<Registration/>} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
       </div>
     </div>
@@ -19,5 +21,6 @@ function App() {
     
   );
 }
+
 
 export default App;
