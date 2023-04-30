@@ -2,6 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const config = require("config")
 const authRouter = require("./auth.routes")
+const fileRouter = require("./file.routes")
 const app = express()
 const PORT = config.get('serverPort')
 const corsMiddleware = require('./middleware/cors.middleware')
@@ -9,6 +10,7 @@ const corsMiddleware = require('./middleware/cors.middleware')
 app.use(corsMiddleware)
 app.use(express.json())
 app.use("/api/auth", authRouter)
+app.use("/api/files", fileRouter)
 
 const start = async () => {
     try{
