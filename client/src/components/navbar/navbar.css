@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  height: 70px;
+  justify-content: center;
+  background-color: #FAFAFAFA;
+  width: 100%;
+  position: absolute;
+}
+.navbar__header {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Gropled;
+  color: #0546F0;
+}
+.navbar__login {
+  margin-left: auto;
+  font-size: 22px;
+  margin-right: 10px;
+  font-family: Gropled;
+  color: #0546F0;
+}
+.navbar__registration {
+  font-size: 22px;
+  font-family: Gropled;
+  color: #0546F0;
+}
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
