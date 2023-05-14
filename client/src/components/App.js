@@ -26,7 +26,6 @@ function App() {
            <Routes>
            <Route path='/registration' element={<Registration/>} />
            <Route path='/login' element={<Login/>} />
-          
            </Routes>
            :
            <Routes>
@@ -41,5 +40,5 @@ function App() {
   );
 }
 //<Redirect to='/login' />
-//<Redirect to='/' />
+//<Redirect to='/login' />
 export default App;
