@@ -1,11 +1,14 @@
 import React from 'react';
 
 
-const File = () => {
+const File = ({file}) => {
 
     return (
-        <div> 
-            file
+        <div className='file'>
+            <img src="" alt="" className="file_image"/>
+            <div className="file_name">{file.name}</div>
+            <div className="file_date">{file.date}</div>
+            <div className="file_size">{file.size}</div>
         </div>
     );
 
