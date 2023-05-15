@@ -1,0 +1,43 @@
+@import "../utils/colors.less";
+
+.authorization {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    align-items: center;
+    background-color: @background_navbar-color;
+    border-radius: 0px;
+    padding: 30px;
+    align-self: center;
+    margin-top: 250px;
+
+    &__header {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: Gropled;
+        color: @bluefont-color;
+        margin: 8px;
+    }
+
+    input {
+        margin: 8px 20px;
+        color: @bluefont_text-color;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__btn {
+      margin: 8px;
+      border: none;
+      background-color: @bluefont-color;
+      border-radius: 0px;
+      font-family: Gropled;
+      color: @background_navbar-color;
+      font-weight: 700;
+      font-size: 22px;
+      padding: 5px 10px;
+
+
+    }
+}
