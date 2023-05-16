@@ -7,10 +7,11 @@ const { rejects } = require('assert')
 class FileService{
 
     createDir(file) {
-        const fileParh = '${config.get(file.path)}\\${file.user}\\${file.path}'
+        const filePath = `${config.get(file.path)}\\${file.user}\\${file.path}`
         return new Promise (((resolve, reject) => {
             try {
-                if (!fs.existsSync(file)) {
+                //была такая строчка вместо следующей, но мне кажется она неверна if (!fs.existsSync(file)) {
+                if (!fs.existsSync(filePath)) {
                     fs.mkdirSync(filePath)
                     return resolve({message: 'File was created'})
                 } else {
