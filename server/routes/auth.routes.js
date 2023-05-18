@@ -29,7 +29,7 @@ router.post('/registration',
         if(candidate){
             return res.status(400).json({message: `User with email ${email} already exist`})
         }
-        const hashPassword = bcrypt.hash(password, 8)
+        const hashPassword = await bcrypt.hash(password, 8)
         const user = new User({email, password: hashPassword})
         await user.save()
         await fileService.createDir(new File({user: user.id, name: ''}))
