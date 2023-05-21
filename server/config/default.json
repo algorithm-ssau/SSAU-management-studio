@@ -2,5 +2,5 @@
     "serverPort" : 5000,
     "dbURL": "mongodb+srv://admin:admin@data-base.buo0lp3.mongodb.net/data-base?retryWrites=true&w=majority",
     "secretKey": "mern-secket-key",
-    "filePath": "C:\\Users\\Роман Евгенич\\Desktop\\Project\\SSAU-management-studio\\server\files"
+    "filePath": "C:\\Users\\User\\Рабочий стол\\SSAU-management-studio-main\\server\\files"
 }

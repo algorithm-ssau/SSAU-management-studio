@@ -1,4 +1,4 @@
-const fileService = require('../services/file.service')
+const fileService = require('../services/fileService')
 const config = require('config')
 const fs = require('fs')
 const User = require('../models/User')
