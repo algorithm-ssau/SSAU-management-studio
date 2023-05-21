@@ -9,6 +9,17 @@
 .disk_create {
   margin-left: 10px;
 }
+.disk_upload-input {
+  display: none;
+}
+.disk_upload-label {
+  border: 2px dashed #0546F0;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 70;
+}
 .popup {
   width: 100%;
   height: 100vh;
