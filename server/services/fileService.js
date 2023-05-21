@@ -20,7 +20,9 @@ class FileService{
                 }
 
             } catch (e) {
-                return reject( {message: 'File error'})
+                //return reject( {message: 'File error'})
+                console.log(e)
+
             }
         }))
 
