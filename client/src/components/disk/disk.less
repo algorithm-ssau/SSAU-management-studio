@@ -16,7 +16,7 @@
         display: none;
     }
     &_upload-label{
-        border: 2px dashed @bluefont-color;
+        border: 2px dashed @bluefont_text-color;
         padding: 5px 10px;
         cursor: pointer;
         margin-left: 10px;
@@ -24,6 +24,17 @@
         font-weight: 70;
     }
 }
+
+.drop-area {
+    width: 100%;
+    height: calc(100vh - 50px - 40px);
+    margin: 20px;
+    border: dashed @bluefont-color 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
 
 .popup{
     width: 100%;
