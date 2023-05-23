@@ -1,0 +1,28 @@
+.popup {
+  align-items: center;
+  align-self: center;
+  border-radius: 0px;
+}
+.popup_title {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Gropled;
+  color: #0546F0;
+  margin: 8px;
+}
+.popup_create {
+  margin: 8px;
+  border: none;
+  background-color: #FAFAFAFA;
+  border-radius: 0px;
+  font-family: Gropled;
+  color: #0546F0;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 5px 10px;
+}
+.popup_close {
+  border: none;
+  background-color: #FAFAFAFA;
+  color: #0546F0;
+}
