@@ -1,6 +1,10 @@
 .disk {
   margin-top: 90px;
 }
+.disk_back {
+  padding: 5px 10px;
+  background: #E9E6E6;
+}
 .disk_btns {
   display: flex;
   font-size: 45px;
@@ -8,6 +12,12 @@
 }
 .disk_create {
   margin-left: 10px;
+  padding: 5px 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #E9E6E6;
+  background: #0546F0;
+  border: none;
 }
 .disk_upload-input {
   display: none;
@@ -17,8 +27,9 @@
   padding: 5px 10px;
   cursor: pointer;
   margin-left: 10px;
-  font-size: 20px;
-  font-weight: 70;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #0546F0;
 }
 .drop-area {
   width: 100%;

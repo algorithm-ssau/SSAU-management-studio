@@ -6,6 +6,7 @@ import './disk.css'
 import Popup from './Popup';
 import { setCurrentDir, setPopupDisplay } from '../../reducers/fileReducer';
 import { useState } from 'react';
+import Back from '..//..//assets/img/button_back.svg';
 
 const Disk = () => {
     const dispatch = useDispatch()
@@ -55,8 +56,8 @@ const Disk = () => {
     return ( !dragEnter ?
         <div className="disk" onDragEnter={dragEnterHandler} onDragLeave={dragLeaveHandler} onDragOver={dragEnterHandler}>
             <div className="disk_btns">
-                <button className="disk_back" onClick={() => backClickHandler()}>Назад</button>
-                <button className="disk_create" onClick={() => showPopupHandler()}>Создать папку</button>
+                <button className="disk_back" onClick={() => backClickHandler()}> <img src={Back} alt="Back" /></button>
+                <button className="disk_create" onClick={() => showPopupHandler()}>Создать новую папку</button>
                 <div className="disk_upload">
                     <label htmlFor="disk_upload-input" className="disk_upload-label">Загрузить файл</label>
                     <input multiple={true} onChange={(event)=> fileUploadHandler(event)} type="file" id="disk_upload-input" className="disk_upload-input" />

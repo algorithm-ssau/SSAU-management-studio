@@ -3,6 +3,11 @@
 .disk {
     margin-top: 90px;
 
+    &_back {
+        
+        padding: 5px 10px;
+        background:@background-color;
+    }
     &_btns {
         display: flex;
         font-size: 45px;
@@ -11,6 +16,13 @@
 
     &_create {
         margin-left: 10px;
+        padding: 5px 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: @background-color;
+        background: @bluefont-color;
+        border: none;
+
     }
     &_upload-input{
         display: none;
@@ -20,8 +32,9 @@
         padding: 5px 10px;
         cursor: pointer;
         margin-left: 10px;
-        font-size: 20px;
-        font-weight: 70;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: @bluefont-color;
     }
 }
 

@@ -7,7 +7,7 @@ import Registration from "./authorization/Registration";
 import Login from './authorization/Login';
 import { useDispatch, useSelector } from 'react-redux';
 import { auth } from '../actions/user';
-import Disk from './disk/Disk';
+import Disk from './disk/disk';
 
 function App() {
     const isAuth = useSelector(state => state.user.isAuth)
