@@ -1,7 +1,7 @@
 # SSAU-management-studio
 Разработка единой системы управления проектами
 
-<img align="center" width="15%" src="https://github.com/algorithm-ssau/client/src/assets/img/navbar-logo.svg">   
+<img align="center" width="15%" src="https://github.com/algorithm-ssau/SSAU-management-studio/client/src/assets/img/navbar-logo.svg">   
 
 
 ## Разрабочики
