@@ -1,11 +1,13 @@
 @import "../../../utils/colors.less";
 
+
 .file{
     margin: 10px 0;
     border-bottom: solid 2px @bluefont-color ;
     display: grid;
     grid-template-columns: 1fr 4fr repeat(4, 1fr);
     align-items: center;
+   
 
     &:hover{
         transform: scale(1.02);
@@ -25,5 +27,42 @@
         grid-column-start: 6;
         justify-self: center;
     }
+
+    &_btn {
+        display: none;
+    }
+
+    &:hover &_date {
+        grid-column-start: 3;
+    }
+
+    &:hover &_size {
+        grid-column-start: 4;
+    }
+
+    &:hover &_download {
+        grid-column-start: 5;
+        display: block;
+        border-radius: 40px;
+        background: @background-color;
+        width: 60px;
+        height: 35px;
+        justify-self: center;
+        
+
+    }
+
+    &:hover &_delete {
+        grid-column-start: 6;
+        display: block;
+        border-radius: 40px;
+        background: @background-color;
+        width: 60px;
+        height: 35px;
+        justify-self: center;
+
+    }
+
+
 }
 

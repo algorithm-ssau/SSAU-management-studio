@@ -19,3 +19,30 @@
   grid-column-start: 6;
   justify-self: center;
 }
+.file_btn {
+  display: none;
+}
+.file:hover .file_date {
+  grid-column-start: 3;
+}
+.file:hover .file_size {
+  grid-column-start: 4;
+}
+.file:hover .file_download {
+  grid-column-start: 5;
+  display: block;
+  border-radius: 40px;
+  background: #E9E6E6;
+  width: 60px;
+  height: 35px;
+  justify-self: center;
+}
+.file:hover .file_delete {
+  grid-column-start: 6;
+  display: block;
+  border-radius: 40px;
+  background: #E9E6E6;
+  width: 60px;
+  height: 35px;
+  justify-self: center;
+}
