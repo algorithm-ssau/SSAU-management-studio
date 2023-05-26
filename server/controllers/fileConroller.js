@@ -61,8 +61,8 @@ class FileController {
                 file.mv(path)
 
                 const type = file.name.split('.').pop()
-                /*let filePath = file.name
-                if(parent)
+                let filePath = file.name
+                /*if(parent)
                 {
                     filePath = parent.path + "\\"+ file.name
                 }*/
