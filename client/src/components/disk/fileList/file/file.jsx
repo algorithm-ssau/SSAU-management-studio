@@ -4,10 +4,10 @@ import dirLogo from '../../../../assets/img/dir.svg'
 import fileLogo from '../../../../assets/img/file.svg'
 import { useDispatch, useSelector } from 'react-redux';
 import { pushToStack, setCurrentDir } from '../../../../reducers/fileReducer';
-import { downloadFile, deleteFile } from '../../../../actions/file.js';
+import { downloadFile, deleteFile } from '../../../../actions/file';
 import Download from '../../../../assets/img/button_download.svg';
 import Delete from '../../../../assets/img/button_delete.svg';
-//import { deleteFile } from '../../../../../../server/services/fileService';
+
 
 const File = ({file}) => {
     const dispatch = useDispatch()
@@ -37,7 +37,7 @@ const File = ({file}) => {
             {file.type !== 'dir' && <button onClick={(e) => downloadClickHandler(e)} className="file_btn file_download" >
                 <img src={Download} alt="Download"/>
                 </button>}
-            <button onClick={(e)=> deleteClickHandler()} className="file_btn file_delete">
+            <button onClick={(e)=> deleteClickHandler(e)} className="file_btn file_delete">
             <img src={Delete} alt="Delete"/>
             </button>
         </div>
